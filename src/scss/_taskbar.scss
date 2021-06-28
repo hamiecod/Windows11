@@ -1,0 +1,40 @@
+.taskbar {
+  background: #f3f3f3;
+  width: 100vw;
+  height: 7vh;
+  position: absolute;
+  bottom: 0vh;
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+  &__icons {
+    height: 6.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    &-img {
+      height: 5.5vh;
+      width: auto;
+      margin: 0.5rem 0.07rem;
+      padding: 0.3rem 0.5rem;
+      transition-property: all;
+      border-radius: 0.1rem;
+      transition-duration: 0.1s;
+      &:hover {
+        background: linear-gradient(
+          to bottom,
+          rgba(219, 213, 213, 0.384),
+          rgb(218, 209, 209)
+        );
+      }
+    }
+  }
+  &__right{
+    position: absolute;
+    right: 0;
+    height: 89%;
+    width: 19%;
+    bottom: 0.7vh;
+  }
+}

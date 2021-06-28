@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: url(/assets/images/bglIghtbackground.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.taskbar {
+  background: #f3f3f3;
+  width: 100vw;
+  height: 7vh;
+  position: absolute;
+  bottom: 0vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 3;
+}
+
+.taskbar__icons {
+  height: 6.5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25%;
+}
+
+.taskbar__icons-img {
+  height: 5.5vh;
+  width: auto;
+  margin: 0.5rem 0.07rem;
+  padding: 0.3rem 0.5rem;
+  -webkit-transition-property: all;
+  transition-property: all;
+  border-radius: 0.1rem;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+}
+
+.taskbar__icons-img:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(219, 213, 213, 0.384)), to(#dad1d1));
+  background: linear-gradient(to bottom, rgba(219, 213, 213, 0.384), #dad1d1);
+}
+
+.taskbar__right {
+  position: absolute;
+  right: 0;
+  height: 89%;
+  width: 19%;
+  bottom: 0.7vh;
+}
+
+.bgVideo {
+  width: 100vw;
+  position: absolute;
+  top: 0vh;
+}
+
+.startMenu {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.startMenu-img {
+  z-index: 2;
+  height: 80vh;
+  position: absolute;
+  bottom: -86vh;
+  border-radius: 0.5rem;
+}
+/*# sourceMappingURL=main.css.map */

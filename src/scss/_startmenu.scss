@@ -1,0 +1,12 @@
+.startMenu{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    &-img{
+        z-index: 2;
+        height: 80vh;
+        position: absolute;
+        bottom: -86vh;
+        border-radius: 0.5rem;
+    }
+}
